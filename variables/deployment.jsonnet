@@ -1,4 +1,4 @@
-local replicas = std.extVar("replicas");
+local replicas = std.parseInt(std.extVar("replicas"));
 local deploymentName = std.extVar("deploymentName");
 local namespace = std.extVar("namespace");
 
